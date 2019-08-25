@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="outer">
+        <input type="text" class="screen">
+        <div class="main-part">
+          <div class="row1">
+            <button type="button" id="delete" data-num="CE" class="btn-row2">CE</button>
+              <button type="button" id="root" class="btn-row1">
+                <span style="white-space: nowrap; font-size:larger">
+                    &radic;<span style="text-decoration:overline;"></span>x
+                </span>
+              </button>
+              <button type="button" data-num="%" id="square" class="btn-row1">
+                 a<sup>2</sup>
+              </button>
+              <button type="button" data-num="1/x" id="devide-1" class="btn-row1">1/x</button>
+          </div>
+
+          <div class="row2">
+            <button type="button" id = "percent" data-num="%" class="btn-row1">%</button>
+            <button type="button"  id= "special"data-num="<" class="btn-row3"><</button>
+            <button type="button" id="special" data-num=">" class="btn-row2">></button>
+            <button type="button" id = "special" data-num="/" class="btn-row2">/</button>
+        </div>
+        <div class="row3">
+            <button type="button" data-num="7" class="btn-row3" id="special">7</button>
+            <button type="button" data-num="8" class="btn-row3" id="special">8</button>
+            <button type="button" data-num="9" class="btn-row3" id="special">9</button>
+            <button type="button" id = "special" data-num="*" class="btn-row3">*</button>
+        </div>
+
+        <div class="row3">
+            <button type="button" data-num="4" class="btn-row3" id="special">4</button>
+            <button type="button" data-num="5" class="btn-row3" id="special">5</button>
+            <button type="button" data-num="6" class="btn-row3" id="special">6</button>
+            <button type="button" id = "special" data-num="-" class="btn-row3">-</button>
+        </div>
+
+        <div class="row3">
+            <button type="button" data-num="1" class="btn-row3" id="special">1</button>
+            <button type="button" data-num="2" class="btn-row3" id="special">2</button>
+            <button type="button" data-num="3" class="btn-row3" id="special">3</button>
+            <button type="button"  id = "special" data-num="+" class="btn-row3">+</button>
+        </div>
+
+        <div class="row4">
+            <button type="button" id="clear-1" data-num="C" class="btn-row2">C</button>
+            <button type="button" data-num="0" class="btn-row3" id="special">0</button>
+            <button type="button"  id = "special" data-num="." class="btn-row3">.</button>
+           <button type="btn" class="equal-btn">=</button>
+        </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
